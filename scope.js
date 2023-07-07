@@ -8,10 +8,19 @@ function main(){
     return a+b;
 }
 
-//let has bloack scope but var does not
+//"let" has bloack scope but "var" does not
 {
     var x = 10;
 }
+
+
+if (Math.random() > 0.5) {
+    var x = 1;
+  } else {
+    var x = 2;
+  }
+console.log(x);      // this works because var doesnt have any block scope, here its treated as a global variable
+//Thats why we should use let and const
 
 
 
@@ -26,6 +35,7 @@ function func(){
     console.log(greet);
 }
 func();
+
 
 
 //Declaration
