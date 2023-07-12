@@ -71,7 +71,7 @@ product(...arr);    //spread
 
 
 //7. Callback Functions: Its a function passed to another function as a argument, 
-//which is then invoked in theouter function to perform some action
+//which is then invoked in the outer function to perform some action
 
 //ex: setTimeOut, map, filter, reduce
 
