@@ -109,7 +109,6 @@ function func(){
         }
         inner(i);
     }  
-    
 }
 
 //5. Implement private counter

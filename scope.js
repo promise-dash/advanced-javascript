@@ -13,6 +13,13 @@ function main(){
     var x = 10;
 }
 
+/* "var" vs "let" vs "char"
+    1. var is functional scoped while let and const are block scoped
+    2. var can be redeclared, but let and const cannot.
+    3. var and let can be reinitialized but const cannot
+    4. var and let can be declared without initialization but const as be initializsed.
+*/
+
 
 if (Math.random() > 0.5) {
     var x = 1;
